@@ -15,6 +15,8 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 FROM python:3.8-slim
+FROM nvidia/cuda:10.2-base
+CMD nvidia-smi
 
 RUN apt update && apt -y install libsndfile1 ffmpeg redis-server supervisor
 
