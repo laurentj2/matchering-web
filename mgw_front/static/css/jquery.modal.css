@@ -65,20 +65,20 @@
   transform: translateY(-50%) translateX(-50%);
   padding: 12px 16px;
   border-radius: 5px;
-  background-color: #911;
-  height: 10px;
+  background-color: #111;
+  height: 20px;
 }
 
 .modal-spinner > div {
   border-radius: 100px;
-  background-color: #1c1d2f;
-  height: 10px;
+  background-color: #1c1d1f;
+  height: 20px;
   width: 2px;
   margin: 0 1px;
   display: inline-block;
 
-  -webkit-animation: sk-stretchdelay 0.5s infinite ease-in-out;
-  animation: sk-stretchdelay 0.5s infinite ease-in-out;
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
 }
 
 .modal-spinner .rect2 {
