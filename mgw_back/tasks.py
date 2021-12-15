@@ -82,9 +82,10 @@ def process(session: MGSession):
     try:
         mg.process(
             target=media(session.target.file.name),
-            reference=media(Bass1.flac),
+            reference=media(session.reference.file.name),
             results=[
-                mg.pcm24(media(paths.result24))
+                mg.pcm24(media(paths.result24)),
+                mg.pcm16(media(paths.result16))
             ],
             preview_target=mg.pcm16(media(paths.preview_target)),
             preview_result=mg.pcm16(media(paths.preview_result)),
