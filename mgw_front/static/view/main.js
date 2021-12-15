@@ -161,7 +161,7 @@ $("#upload-target").hover(
     genHandler(
         "#upload-tip",
         uploadTipText,
-        "The Track You Want to Master"
+        "The Track You Want to Mastergj"
     )
 );
 $("#upload-reference").hover(
